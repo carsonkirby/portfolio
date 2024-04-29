@@ -3609,3 +3609,9 @@ input, select, textarea {
 			}
 
 		}
+		footer {
+			background-color: #2ebaae;
+			color: white;
+			text-align: center;
+			padding: 5px;
+		}
