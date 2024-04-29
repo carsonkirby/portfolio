@@ -3496,12 +3496,11 @@ input, select, textarea {
 	}
 
 	#footer .copyright {
-		color: #aaaaaa;
-		font-family: "Raleway", Helvetica, sans-serif;
+		color: #2b2d4e;
+		font-family: Helvetica, sans-serif;
 		font-size: 0.5em;
 		font-weight: 400;
 		letter-spacing: 0.25em;
-		text-transform: uppercase;
 	}
 
 	body.single #footer {
