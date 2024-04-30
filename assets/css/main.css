@@ -3611,6 +3611,8 @@ input, select, textarea {
 		footer {
 			text-align: left;
 			padding: 5px;
+			display: flex;
+			flex-direction: row;
 		}
 
 		.horitontal {
