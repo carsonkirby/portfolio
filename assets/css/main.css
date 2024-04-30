@@ -3500,7 +3500,7 @@ input, select, textarea {
 	#footer .copyright {
 		color: #2b2d4e;
 		font-family: Helvetica, sans-serif;
-		font-size: 0.8em;
+		font-size: 0.5em;
 		font-weight: 400;
 		letter-spacing: 0.1em;
 		display: inline-block
@@ -3614,6 +3614,7 @@ input, select, textarea {
 			padding: 5px;
 			display: flex;
 			flex-direction: row;
+			text: 0.5em;
 		}
 
 		.horitontal {
