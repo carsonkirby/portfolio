@@ -3612,3 +3612,10 @@ input, select, textarea {
 			text-align: left;
 			padding: 5px;
 		}
+
+		.horitontal {
+			display: flex;
+			flex-direction: row;
+			list-style-type: none;
+			align-items: center;
+		}
