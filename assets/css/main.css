@@ -3624,33 +3624,40 @@ input, select, textarea {
 			align-items: center;
 		}
 
-		#hamburger-menu {
-			display: block;
-			cursor: pointer;
-		}
+		/* Initial setup for mobile menu */
+#header .links {
+    display: none;
+}
 
-		#hamburger-menu div {
-			display: block;
-			width: 25px;
-			height: 3px;
-			margin: 5px 0;
-			background-color: #333;
+/* Styling for hamburger icon */
+#hamburger-menu {
+    display: block;
+    cursor: pointer;
+}
 
-		}
+#hamburger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px;
+}
 
-		#header .links {
-			display: none;
-		}
+/* Dropdown menu */
+.dropdown-menu {
+    display: none;
+}
 
-		/* Media Query for desktop */
-		@media (min-width: 736px) {
-			#header .links{
-				display: block;
-			}
+.dropdown-menu.show {
+    display: block;
+}
 
-			#hamburger-menu {
-				display: none;
-			}
-		}
-
+/* Media query for desktop */
+@media (min-width: 768px) {
+    #header .links {
+        display: block;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+}
 	

@@ -92,14 +92,12 @@
 				$intro.prependTo($sidebar);
 			});
 
-	// JavaScript for the hamburger menu
-			document.getElementById('hamburger-menu').addEventListener('click', function() {
-				var nav = document.getElementById('header').querySelector('.links');
-				if (nav.style.display === 'block') {
-					nav.style.display = 'none';
-				} else {
-					nav.style.display = 'block';
-				}
-			});
+// JavaScript to toggle the menu
+document.getElementById('hamburger-menu').addEventListener('click', function() {
+    var nav = document.getElementById('header').querySelector('.links');
+    var dropdownMenu = document.getElementById('header').querySelector('.dropdown-menu');
+    nav.classList.toggle('show');
+    dropdownMenu.classList.toggle('show');
+});
 
 })(jQuery);
