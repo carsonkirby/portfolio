@@ -3623,3 +3623,34 @@ input, select, textarea {
 			list-style-type: none;
 			align-items: center;
 		}
+
+		#hamburger-menu {
+			display: block;
+			cursor: pointer;
+		}
+
+		#hamburger-menu div {
+			display: block;
+			width: 25px;
+			height: 3px;
+			margin: 5px 0;
+			background-color: #333;
+
+		}
+
+		#header .links {
+			display: none;
+		}
+
+		/* Media Query for desktop */
+		@media (min-width: 736px) {
+			#header .links{
+				display: block;
+			}
+
+			#hamburger-menu {
+				display: none;
+			}
+		}
+
+	

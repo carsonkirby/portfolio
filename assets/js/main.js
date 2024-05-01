@@ -92,4 +92,14 @@
 				$intro.prependTo($sidebar);
 			});
 
+	// JavaScript for the hamburger menu
+			document.getElementById('hamburger-menu').addEventListener('click', function() {
+				var nav = document.getElementById('header').querySelector('.links');
+				if (nav.style.display === 'block') {
+					nav.style.display = 'none';
+				} else {
+					nav.style.display = 'block';
+				}
+			});
+
 })(jQuery);
