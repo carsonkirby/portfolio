@@ -3511,10 +3511,12 @@ input, select, textarea {
 	#footer .copyright {
 		color: #2b2d4e;
 		font-family: Helvetica, sans-serif;
-		font-size: 0.5em;
+		font-size: 0.25em;
 		font-weight: 400;
 		letter-spacing: 0.1em;
-		display: inline-block
+		display: block;
+		text-align: center;
+	
 	}
 
 	body.single #footer {
