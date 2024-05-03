@@ -91,13 +91,3 @@
 			breakpoints.on('>large', function() {
 				$intro.prependTo($sidebar);
 			});
-
-// JavaScript to toggle the menu
-document.getElementById('hamburger-menu').addEventListener('click', function() {
-    var nav = document.getElementById('header').querySelector('.links');
-    var dropdownMenu = document.getElementById('header').querySelector('.dropdown-menu');
-    nav.classList.toggle('show');
-    dropdownMenu.classList.toggle('show');
-});
-
-})(jQuery);
