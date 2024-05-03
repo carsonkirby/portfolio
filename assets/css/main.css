@@ -3624,11 +3624,13 @@ input, select, textarea {
 			align-items: center;
 		}
 
+
+		
+
 		/* Initial setup for mobile menu */
 #header .links {
     display: none;
 }
-
 /* Styling for hamburger icon */
 #hamburger-menu {
     display: block;
