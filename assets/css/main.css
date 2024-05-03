@@ -1879,11 +1879,21 @@ input, select, textarea {
 		height: 4.8125em;
 		letter-spacing: 0.1em;
 		line-height: 4.8125em;
-		padding: 0 2.5em;
+		padding: 5em;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+	}
+
+	.button-container  {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	.button-container li {
+		margin-bottom: 10px;
 	}
 
 		input[type="submit"]:hover,
