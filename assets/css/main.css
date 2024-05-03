@@ -1877,6 +1877,7 @@ input, select, textarea {
 		font-size: 0.6em;
 		font-weight: 800;
 		height: 4.8125em;
+		width: 75%;
 		letter-spacing: 0.1em;
 		line-height: 4.8125em;
 		padding: 0 .75em;
