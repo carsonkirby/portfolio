@@ -1,2 +1,2 @@
-# portfolio
- This repository was use in creating my portfolio for Digital Product Management
+# Portfolio
+ This repository was used in creating my portfolio for Digital Product Management
